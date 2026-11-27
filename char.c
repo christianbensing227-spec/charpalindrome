@@ -28,4 +28,5 @@ int main() {
         printf("\nPalindrome?:NO");      
     }
 
-    return 0;                         
+    return 0;    
+}
