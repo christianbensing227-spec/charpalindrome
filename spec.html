@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+
+    <label for="first-number">First number</label>
+    <input id="first-number" type="number" step="any">
+
+    <label for="second-number">Second number</label>
+    <input id="second-number" type="number" step="any">
+
+    <p>
+        <button type="button" data-operation="add">+</button>
+        <button type="button" data-operation="subtract">-</button>
+        <button type="button" data-operation="multiply">*</button>
+        <button type="button" data-operation="divide">/</button>
+    </p>
+
+    <p id="result" aria-live="polite">Result: —</p>
+</body>
+</html>
